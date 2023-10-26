@@ -1,0 +1,100 @@
+<style>
+  .card {
+    background: white;
+    box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.15);
+    margin-bottom: 5rem;
+    display: flex;
+    transition: all 0.5s;
+    border-radius: 10px;
+  }
+
+  .card__emoji {
+    font-size: 5.5rem;
+    line-height: 1.2;
+    padding: 1.5rem 6rem 0.5rem 1.5rem;
+    letter-spacing: -4rem;
+  }
+
+  .card__title-box {
+    background: linear-gradient(to bottom, #87ceeb, #0071c5);
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+  }
+
+  .card__title {
+    color: white;
+    font-size: 3.25rem;
+  }
+
+  .card__details {
+    display: flex;
+  }
+
+  .card__detail-box {
+    align-self: stretch;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+  }
+
+  .card__detail {
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 1.75rem;
+  }
+
+  .card__link:link,
+  .card__link:visited {
+    flex: 0 0 auto;
+    background-color: #87ceeb;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+  }
+
+  .card__link:hover,
+  .card__link:active {
+    background-color: #0071c5;
+  }
+
+  .card:hover {
+    box-shadow: 0 3rem 8rem 2rem rgba(0, 0, 0, 0.15);
+  }
+
+  .emoji-left {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+
+  .emoji-right {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+</style>
+
+<figure class="card">
+  <div class="card__emoji">{%IMAGE%}</div>
+  <div class="card__title-box">
+    <h2 class="card__title">{%SPORTNAME%}</h2>
+  </div>
+
+  <div class="card__details">
+    <div class="card__detail-box">
+      <h6 class="card__detail">Famous Player: {%FAMOUSPLAYER%}</h6>
+    </div>
+  </div>
+
+  <a class="card__link" href="/sport?id={%ID%}">
+    <span>Details <span class="emoji-right">➡️</span></span>
+  </a>
+</figure>

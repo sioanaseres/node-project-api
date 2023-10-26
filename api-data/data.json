@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "sportName": "Soccer ",
+    "image": "⚽",
+    "description": "A popular team sport played with a spherical ball, where the objective is to score goals by getting the ball into the opponent's net.",
+    "rules": "Two teams of 11 players each aim to score goals while following specific rules, including no use of hands except for the goalkeeper.",
+    "famousPlayer": "Lionel Messi",
+    "funFact": "The fastest red card in a soccer match was shown just 2 seconds after kickoff."
+  },
+  {
+    "id": 1,
+    "sportName": "Basketball ",
+    "image": "🏀",
+    "description": "A fast-paced indoor sport where two teams compete to score points by shooting a ball through the opponent's hoop.",
+    "rules": "Teams of 5 players each try to outscore their opponents by making baskets and following rules such as no double-dribbling or goaltending.",
+    "famousPlayer": "LeBron James",
+    "funFact": "Basketball was invented by Dr. James Naismith in 1891."
+  },
+  {
+    "id": 2,
+    "sportName": "Tennis ",
+    "image": "🎾",
+    "description": "A racquet sport played on a rectangular court, where players hit a ball over a net trying to outscore their opponent.",
+    "rules": "Tennis is typically played in singles or doubles, and the objective is to win sets and games while following rules like no foot faults.",
+    "famousPlayer": "Roger Federer",
+    "funFact": "The longest tennis match in history lasted 11 hours and 5 minutes."
+  },
+  {
+    "id": 3,
+    "sportName": "Swimming ",
+    "image": "🏊",
+    "description": "A water sport where individuals or teams race through the water using various strokes and techniques.",
+    "rules": "Swimming competitions feature different styles such as freestyle, backstroke, breaststroke, and butterfly, with specific rules for each.",
+    "famousPlayer": "Michael Phelps",
+    "funFact": "Swimming is one of the oldest Olympic sports, dating back to 1896."
+  },
+  {
+    "id": 4,
+    "sportName": "Golf ",
+    "image": "⛳",
+    "description": "A precision sport where players use clubs to hit a ball into a series of holes in as few strokes as possible.",
+    "rules": "Golf is played on a course with 9 or 18 holes, and the objective is to complete the course in the fewest strokes possible while adhering to golfing etiquette.",
+    "famousPlayer": "Tiger Woods",
+    "funFact": "Golf is one of the few sports that has been played on the moon."
+  }
+]

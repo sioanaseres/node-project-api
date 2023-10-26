@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Sports</title>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+      }
+
+      body {
+        padding: 5rem 5rem 10rem;
+        line-height: 1.7;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #555;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #87ceeb, #0071c5);
+      }
+
+      h1 {
+        font-size: 6rem;
+        color: white;
+        text-align: center;
+        position: relative;
+        word-spacing: 3px;
+      }
+
+      h1::before {
+        content: "";
+        display: block;
+        height: 25%;
+        width: 69%;
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        opacity: 0.5;
+        z-index: -1;
+        transform: skewY(370deg) translate(-50%, -50%);
+      }
+
+      .container {
+        width: 95rem;
+        margin: 0 auto;
+      }
+
+      .cards-container {
+        margin-top: 8rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Dive into the World of Sports</h1>
+
+      <div class="cards-container">{%SPORTS_CARDS%}</div>
+    </div>
+  </body>
+</html>
